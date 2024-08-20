@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".countdown.ui.detail.DetailHabitActivity"
+    tools:showIn="@layout/activity_detail_habit">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Text View for Focus Time Duration Hint -->
+        <TextView
+            android:id="@+id/tv_focus_time_duration_hint"
+            style="@style/Widget.AppCompat.TextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/focus_time_duration_hint"
+            android:fontFamily="@font/medium"
+            android:textColor="@color/textColor"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- Text View for Focus Time Duration -->
+        <TextView
+            android:id="@+id/detail_ed_time_minutes"
+            style="@style/Widget.AppCompat.TextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="top"
+            android:lines="1"
+            android:text="@string/focus_time_duration_hint"
+            android:fontFamily="@font/medium"
+            android:textColor="@color/textColor"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_focus_time_duration_hint" />
+
+        <!-- Text View for Start Time Hint -->
+        <TextView
+            android:id="@+id/tv_start_time_hint"
+            style="@style/Widget.AppCompat.TextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/start_time"
+            android:fontFamily="@font/medium"
+            android:textColor="@color/textColor"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/detail_ed_time_minutes" />
+
+        <!-- Text View for Start Time -->
+        <TextView
+            android:id="@+id/detail_ed_start_time"
+            style="@style/Widget.AppCompat.TextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="top"
+            android:lines="1"
+            android:text="@string/start_time"
+            android:fontFamily="@font/medium"
+            android:textColor="@color/textColor"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_start_time_hint" />
+
+        <!-- Button to Open Countdown -->
+        <Button
+            android:id="@+id/btn_open_count_down"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="16dp"
+            android:padding="12dp"
+            android:text="@string/open_count_down"
+            android:textColor="@android:color/white"
+            android:backgroundTint="?attr/colorPrimary"
+            app:cornerRadius="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/detail_ed_start_time" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.core.widget.NestedScrollView>

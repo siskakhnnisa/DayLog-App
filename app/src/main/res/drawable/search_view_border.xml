@@ -1,0 +1,7 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="@android:color/transparent" />
+    <stroke
+        android:width="1dp"
+        android:color="?attr/colorPrimary" /> <!-- Ganti your_border_color dengan warna border yang Anda inginkan -->
+</shape>

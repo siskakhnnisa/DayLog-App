@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">DayLog</string>
+    <string name="action_settings">Pengaturan</string>
+
+    <string name="title_hint">Nama Aktivitas</string>
+    <string name="focus_time_duration_hint">Durasi Waktu Fokus (dalam menit)</string>
+    <string name="action_save">Simpan</string>
+    <string name="add_habit">Tambah Habit</string>
+    <string name="start_time">Waktu Mulai</string>
+    <string name="habit_deleted">Habit telah dihapus</string>
+    <string name="priority_level">Tingkat Prioritas</string>
+    <string name="minutes">menit</string>
+
+    <string name="title_activity_settings">Pengaturan</string>
+    <string name="title_activity_detail_habit">Detail Kebiasaan</string>
+
+
+    <!-- Snackbar -->
+    <string name="empty_message">Habit tidak boleh kosong</string>
+    <string name="invalid_minutes">Menit tidak valid</string>
+
+    <!-- Night Mode Preferences -->
+    <string name="pref_dark_title">Mode Gelap</string>
+    <string name="pref_key_dark" translatable="false">key_dark_mode</string>
+    <string name="pref_dark_follow_system" translatable="false">follow_system</string>
+    <string name="pref_dark_on" translatable="false">on</string>
+    <string name="pref_dark_off" translatable="false">off</string>
+    <string name="dark_mode_auto">Otomatis</string>
+    <string name="dark_mode_on">Mode Gelap</string>
+    <string name="dark_mode_off">Mode Terang</string>
+
+    <!-- Notification -->
+    <string name="pref_key_notify">key_notification</string>
+    <string name="pref_notify_name">Notifikasi</string>
+    <string name="notify_channel_name">Pengingat Habit</string>
+    <string name="notify_content">Waktu Habis!</string>
+
+    <!-- Sort -->
+    <string name="action_sort">Urutkan</string>
+    <string name="sort_start_time">Berdasarkan Waktu Mulai</string>
+    <string name="sort_minutes_focus">Berdasarkan Menit Fokus</string>
+    <string name="sort_title_name">Berdasarkan Nama Habit</string>
+
+    <!-- Priority Level-->
+    <string name="high">Tinggi</string>
+    <string name="medium">Sedang</string>
+    <string name="low">Rendah</string>
+
+    <!-- Count Down-->
+    <string name="start">Mulai</string>
+    <string name="stop">Berhenti</string>
+    <string name="open_count_down">Buka Hitung Mundur</string>
+    <string name="hello_blank_fragment">Halo fragmen kosong</string>
+
+    <!-- Course Feature -->
+    <string name="monday">Senin</string>
+    <string name="tuesday">Selasa</string>
+    <string name="wednesday">Rabu</string>
+    <string name="thursday">Kamis</string>
+    <string name="friday">Jumat</string>
+    <string name="saturday">Sabtu</string>
+    <string name="sunday">Minggu</string>
+
+    <string name="home">Beranda</string>
+    <string name="time_format">%1$s, %2$s - %3$s</string>
+    <string name="add_course">Tambah Mata Kuliah</string>
+    <string name="input_empty_message">Nama mata kuliah dan waktu tidak boleh kosong</string>
+    <string name="insert_course">Masukkan Mata Kuliah</string>
+    <string name="sort_by_time">Urutkan Berdasarkan Waktu</string>
+    <string name="sort_by_course_name">Urutkan Berdasarkan Nama Mata Kuliah</string>
+    <string name="sort_by_lecturer">Urutkan Berdasarkan Dosen</string>
+    <string name="notification_message_format">(%1$s - %2$s) %3$s</string>
+    <string name="today_schedule">Jadwal Hari Ini</string>
+
+    <!-- SIGN IN/ SIGN OUT STUFF -->
+    <string name="invalid_email">Format email tidak valid</string>
+    <string name="invalid_password">Format kata sandi tidak valid</string>
+    <string name="invalid_phone_number">Nomor telepon tidak valid</string>
+    <string name="required_field">Silakan isi field ini</string>
+    <string name="register_image">Daftar Gambar</string>
+    <string name="email">Email</string>
+    <string name="enter_username">Masukkan nama pengguna</string>
+    <string name="enter_your_email">Masukkan email Anda</string>
+    <string name="enter_your_password">Masukkan kata sandi Anda</string>
+    <string name="show_password">Tampilkan Kata Sandi</string>
+    <string name="already_have_an_account">Sudah punya akun?</string>
+    <string name="sign_in_here">Sign In di sini</string>
+    <string name="havent_have_account">Belum punya akun?</string>
+    <string name="signup_here">Sign Out di sini</string>
+    <string name="new_password">Kata Sandi Baru</string>
+    <string name="enter_new_password">Masukkan kata sandi baru</string>
+    <string name="password">Kata Sandi</string>
+    <string name="sign_in">Sign In</string>
+    <string name="create_new_account_here">Buat Akun Baru Di Sini</string>
+    <string name="login_image">Gambar Masuk</string>
+    <string name="username">Nama Pengguna</string>
+    <string name="phone">Telepon</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="signin_to_your_account">Masuk ke Akun Anda</string>
+
+    <string name="pref_key_reminder">pengingat_notifikasi_preferensi</string>
+    <string name="save">Simpan</string>
+    <string name="note">Catatan</string>
+    <string name="lecturer">Dosen</string>
+    <string name="end_time">Waktu Selesai</string>
+    <string name="course_name">Nama Mata Kuliah</string>
+    <string name="edit_profile">Ubah Profil</string>
+    <string name="name">Nama</string>
+    <string name="login">Masuk</string>
+    <string name="not_yet_registered_sign_up">Belum terdaftar? Daftar</string>
+    <string name="already_have_an_account_sign_in">Sudah punya akun? Masuk</string>
+    <string name="empty_list_message">Pesan Daftar Kosong</string>
+    <string name="image_slider">Slider Gambar</string>
+    <string name="list_of_habit">Daftar Kebiasaan</string>
+    <string name="sort_habits">Urutkan Kebiasaan</string>
+    <string name="profile_image">Gambar Profil</string>
+    <string name="jake_sim">Jake Sim</string>
+    <string name="email_hint">Simjaeyun11@gmail.com</string>
+    <string name="dark_mode">Mode Gelap</string>
+    <string name="language">Bahasa</string>
+    <string name="schedule_notification">Notifikasi Jadwal</string>
+    <string name="change_password">Ubah Kata Sandi</string>
+    <string name="sign_out">Keluar</string>
+    <string name="_16_september">16 September</string>
+    <string name="today">Hari Ini</string>
+    <string name="add_schedule">+ Tambah Jadwal</string>
+    <string name="mon">Sen</string>
+    <string name="_14">14</string>
+    <string name="tue">Sel</string>
+    <string name="_15">15</string>
+    <string name="wed">Rab</string>
+    <string name="_16">16</string>
+    <string name="thu">Kam</string>
+    <string name="_17">17</string>
+    <string name="fri">Jum</string>
+    <string name="_18">18</string>
+    <string name="sat">Sab</string>
+    <string name="_19">19</string>
+    <string name="sun">Min</string>
+    <string name="_20">20</string>
+    <string name="schedule">Jadwal</string>
+    <string name="profile">Profil</string>
+
+    <string name="tv_add_schedule">Tambah Jadwal</string>
+    <string name="there_s_no_activity_yet">Belum ada aktivitas</string>
+    <string name="welcome_to_daylog">Selamat Datang di DayLog</string>
+    <string name="not_yet_registered">Belum punya akun?</string>
+
+</resources>

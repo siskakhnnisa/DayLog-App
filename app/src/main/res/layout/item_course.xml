@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="145dp"
+    android:layout_marginStart="4dp"
+    android:layout_marginBottom="10dp"
+    android:layout_marginEnd="20dp"
+    android:elevation="8dp"
+    app:cardCornerRadius="8dp">
+
+    <View
+        android:layout_width="6dp"
+        android:layout_height="match_parent"
+        android:background="?android:attr/dividerVertical"
+        android:backgroundTint="#CF0047"
+        android:layout_marginEnd="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/tv_course"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:fontFamily="@font/medium"
+            android:textColor="?attr/colorPrimary"
+            android:textSize="16sp"
+            android:layout_marginLeft="15dp"
+            tools:text="@tools:sample/lorem" />
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:drawablePadding="8dp"
+            android:fontFamily="@font/regular"
+            android:drawableLeft="@drawable/ic_time_small"
+            android:textColor="?attr/colorPrimary"
+            tools:text="@tools:sample/date/hhmm" />
+
+        <TextView
+            android:id="@+id/tv_note"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:drawablePadding="8dp"
+            android:layout_marginTop="6dp"
+            android:fontFamily="@font/regular"
+            android:drawableLeft="@drawable/ic_place"
+            android:textColor="?attr/colorPrimary"
+            tools:text="J.4.8"/>
+
+        <TextView
+            android:id="@+id/tv_lecturer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:drawablePadding="8dp"
+            android:fontFamily="@font/regular"
+            android:drawableLeft="@drawable/ic_person"
+            android:textColor="@color/textColor"
+            android:layout_marginTop="6dp"
+            tools:text="@tools:sample/full_names" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

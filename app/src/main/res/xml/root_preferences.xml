@@ -1,0 +1,30 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory app:title="Display">
+        <ListPreference
+            app:defaultValue="@string/pref_dark_follow_system"
+            app:entries="@array/dark_mode"
+            app:entryValues="@array/dark_mode_value"
+            app:key="@string/pref_key_dark"
+            app:title="@string/pref_dark_title"
+            app:useSimpleSummaryProvider="true" />
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="Reminder">
+<!--        <SwitchPreference-->
+<!--            app:key="@string/pref_key_notify"-->
+<!--            app:summary="@string/pref_notify_summary"-->
+<!--            app:title="@string/pref_notify_name" />-->
+
+        <SwitchPreference
+            app:key="pref_key_notify_course"
+            app:summary="Daily reminder for the nearest schedule of the day"
+            app:title="@string/pref_notify_name" />
+
+
+    </PreferenceCategory>
+
+
+
+</PreferenceScreen>

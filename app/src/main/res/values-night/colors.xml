@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="textColor">#FFFFFF</color>
+    <color name="bg_search">#6C6064</color>
+    <color name="title_lavender">#FFFFFF</color>
+    <color name="title_purple11">#FFFFFF</color>
+    <color name="bg_snipper">#6C6064</color>
+    <color name="bg_view">?attr/colorPrimary</color>
+
+
+</resources>

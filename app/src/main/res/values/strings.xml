@@ -1,0 +1,150 @@
+<resources>
+    <string name="app_name">DayLog</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title_hint">Activity Name</string>
+    <string name="focus_time_duration_hint">Focus Time Duration (in minutes)</string>
+    <string name="action_save">Save</string>
+    <string name="add_habit">Add Habit</string>
+    <string name="start_time">Start Time</string>
+    <string name="habit_deleted">Habit has been deleted</string>
+    <string name="priority_level">Priority Level</string>
+    <string name="minutes">minutes</string>
+
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_detail_habit">ScrollingActivity</string>
+
+
+    <!-- Snackbar -->
+    <string name="empty_message">Habit cannot be empty</string>
+    <string name="invalid_minutes">Invalid Minutes</string>
+
+    <!-- Night Mode Preferences -->
+    <string name="pref_dark_title">Dark mode</string>
+    <string name="pref_key_dark" translatable="false">key_dark_mode</string>
+    <string name="pref_dark_follow_system" translatable="false">follow_system</string>
+    <string name="pref_dark_on" translatable="false">on</string>
+    <string name="pref_dark_off" translatable="false">off</string>
+    <string name="dark_mode_auto">Automatic</string>
+    <string name="dark_mode_on">Dark mode</string>
+    <string name="dark_mode_off">Light mode</string>
+
+    <!-- Notification -->
+    <string name="pref_key_notify">key_notification</string>
+    <string name="pref_notify_name">Notification</string>
+    <string name="notify_channel_name">Habit Reminder</string>
+    <string name="notify_content">Time Up!</string>
+
+    <!-- Sort -->
+    <string name="action_sort">sort</string>
+    <string name="sort_start_time">By Start Time</string>
+    <string name="sort_minutes_focus">By Minutes Focus</string>
+    <string name="sort_title_name">By Title Name</string>
+
+    <!-- Priority Level-->
+    <string name="high">High</string>
+    <string name="medium">Medium</string>
+    <string name="low">Low</string>
+
+    <!-- Count Down-->
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="open_count_down">Open Count Down</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!--    Course Feature      -->
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+
+    <string name="home">Home</string>
+    <string name="time_format">%1$s, %2$s - %3$s</string>
+    <string name="add_course">Add Course</string>
+    <string name="input_empty_message">Course name and time cannot be empty</string>
+    <string name="insert_course">Insert Course</string>
+    <string name="sort_by_time">Sort by Time</string>
+    <string name="sort_by_course_name">Sort by Course Name</string>
+    <string name="sort_by_lecturer">Sort by lecturer</string>
+    <string name="notification_message_format">(%1$s - %2$s) %3$s</string>
+    <string name="today_schedule">Today s schedule</string>
+
+
+    <!--    SIGN IN/ SIGN OUT STUFF    -->
+    <string name="invalid_email">Invalid email format</string>
+    <string name="invalid_password">Invalid password format</string>
+    <string name="invalid_phone_number">Invalid phone number</string>
+    <string name="required_field">Please fill this field</string>
+    <string name="register_image">Register Image</string>
+    <string name="email">Email</string>
+    <string name="enter_username">Enter username</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="show_password">Show Password</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="sign_in_here">Sign In here</string>
+    <string name="havent_have_account">Do not have an account yet?</string>
+    <string name="signup_here">Sign Up here</string>
+    <string name="new_password">New Password</string>
+    <string name="enter_new_password">Enter new password</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="create_new_account_here">Create New Account Here</string>
+    <string name="login_image">Login Image</string>
+    <string name="username">Username</string>
+    <string name="phone">Phone</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="signin_to_your_account">Sign In to Your Account</string>
+
+    <string name="pref_key_reminder">reminder_notification_preference</string>
+    <string name="save">Save</string>
+    <string name="note">Note</string>
+    <string name="lecturer">Lecturer</string>
+    <string name="end_time">End Time</string>
+    <string name="course_name">Course Name</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="name">Name</string>
+    <string name="login">Login</string>
+    <string name="not_yet_registered_sign_up">Not yet registered? Sign Up</string>
+    <string name="already_have_an_account_sign_in">Already have an account? Sign In</string>
+    <string name="empty_list_message">Empty List Message</string>
+    <string name="image_slider">Image slider</string>
+    <string name="list_of_habit">List of Habit</string>
+    <string name="sort_habits">Sort Habits</string>
+    <string name="profile_image">Profile Image</string>
+    <string name="jake_sim">Jake Sim</string>
+    <string name="email_hint">Simjaeyun11@gmail.com</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="language">Language</string>
+    <string name="schedule_notification">Schedule Notification</string>
+    <string name="change_password">Change Password</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="_16_september">16 September</string>
+    <string name="today">Today</string>
+    <string name="add_schedule">+ Add Schedule</string>
+    <string name="mon">Mon</string>
+    <string name="_14">14</string>
+    <string name="tue">Tue</string>
+    <string name="_15">15</string>
+    <string name="wed">Wed</string>
+    <string name="_16">16</string>
+    <string name="thu">Thu</string>
+    <string name="_17">17</string>
+    <string name="fri">Fri</string>
+    <string name="_18">18</string>
+    <string name="sat">Sat</string>
+    <string name="_19">19</string>
+    <string name="sun">Sun</string>
+    <string name="_20">20</string>
+    <string name="schedule">Schedule</string>
+    <string name="profile">Profile</string>
+    <string name="tv_add_schedule">Add Schedule</string>
+    <string name="there_s_no_activity_yet">There\'s no activity yet</string>
+    <string name="welcome_to_daylog">Welcome To Daylog!</string>
+    <string name="not_yet_registered">Not yet registered?</string>
+
+</resources>

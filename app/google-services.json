@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "42605040232",
+    "firebase_url": "https://daylog-e05ae-default-rtdb.firebaseio.com",
+    "project_id": "daylog-e05ae",
+    "storage_bucket": "daylog-e05ae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:42605040232:android:2cbb75b0df8b086e24e1dd",
+        "android_client_info": {
+          "package_name": "com.powerpuff.daylog"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASo_tEFRuKQgH-fVWGAZfwBTkRF4H9ITY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

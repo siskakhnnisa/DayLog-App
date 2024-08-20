@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menuHome"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="@string/home"
+        android:enabled="true"
+        app:cnb_iconColor="#FF64B5"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menuSchool"
+        android:icon="@drawable/ic_baseline_school_24"
+        android:title="@string/schedule"
+        android:enabled="true"
+        app:cnb_iconColor="#80E4CD"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menuProfile"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="@string/profile"
+        app:cnb_iconColor="#61B0ED"
+        android:enabled="true"
+        app:showAsAction="always" />
+
+
+
+</menu>
